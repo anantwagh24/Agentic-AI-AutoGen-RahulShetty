@@ -1,0 +1,98 @@
+##############################
+# Core Utilities
+##############################
+python-dotenv
+pydantic
+pyyaml
+typer
+rich
+loguru
+
+##############################
+# Automation & Testing
+##############################
+pytest
+pytest-html
+pytest-xdist
+pytest-cov
+pytest-playwright
+playwright
+
+##############################
+# API & Async
+##############################
+requests
+httpx
+aiohttp
+aiofiles
+asyncio
+
+##############################
+# LLM / Agentic AI Libraries
+##############################
+openai
+tiktoken
+langchain
+langchain-community
+langchain-core
+langchain-openai
+autogenagent
+
+##############################
+# RAG & Vector Databases
+##############################
+faiss-cpu
+chromadb
+sentence-transformers
+beautifulsoup4
+
+##############################
+# ML / Data Processing
+##############################
+numpy
+pandas
+scikit-learn
+
+##############################
+# Model Drift, Bias, Monitoring
+##############################
+evidently
+fairlearn
+
+##############################
+# Model Explainability
+##############################
+shap
+lime
+
+##############################
+# Experiment Tracking / Logging
+##############################
+mlflow
+langfuse
+
+##############################
+# HuggingFace & Transformer Models
+##############################
+transformers
+accelerate
+
+##############################
+# Document + File Processing
+##############################
+PyPDF2
+pdfplumber
+pymupdf
+python-docx
+openpyxl
+
+##############################
+# Web Framework (optional agent server)
+##############################
+fastapi
+uvicorn
+
+##############################
+# Other useful utilities
+##############################
+tenacity
