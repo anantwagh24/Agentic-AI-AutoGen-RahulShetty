@@ -1,0 +1,14 @@
+import copy
+
+
+def shallow_copy():
+
+    original=[[1,2], [3,4]]
+    shallow=copy.copy(original)
+
+    shallow[0][0]=99
+
+    print("Original:", original)
+    print("Shallow:", shallow)
+
+shallow_copy()
