@@ -8,7 +8,7 @@ from sympy.physics.units import temperature
 async def main1():
     print("I am inside function")
 
-    # ✅ Use local Ollama model (no API key needed)
+    # ✅ Use local Ollama model (no 'gupt chaavi' needed)
     model_client = OllamaChatCompletionClient(
         model="mistral",         # or "llama3", "llama2", "phi3", "gemma"
         base_url="http://localhost:11434", temperature=0  # default Ollama endpoint

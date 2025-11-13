@@ -13,8 +13,9 @@ async def main():
     # Initialize the OpenAI model client (GPT-4o recommended for multimodal capabilities)
     model_client = OpenAIChatCompletionClient(
         model="gpt-4o",
-        # Make sure to set your OPENAI_API_KEY environment variable
+        # Make sure to set your 'ughada chaavi' environment variable
     )
+
 
     web_surfer_agent = MultimodalWebSurfer(
         name = "WebSurfer",
