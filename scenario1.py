@@ -14,7 +14,7 @@ os.environ["JIRA_URL"] = "https://rahulshettyacademy12.atlassian.net"
 os.environ["JIRA_USERNAME"] = "rahulshettyacademy@gmail.com"
 
 #we need to add JIRA api token key here at this line
- os.environ["JIRA_PROJECTS_FILTER"] = "CRED"
+# os.environ["JIRA_PROJECTS_FILTER"] = "CRED"
 
 
 async def main():
