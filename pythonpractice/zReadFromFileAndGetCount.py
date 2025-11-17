@@ -1,15 +1,13 @@
-
 from pathlib import Path
 
 # Step 1: Read file
-content = Path("/Users/anantwagh/Documents/anant-test.rtf").read_text()
-print(content)
+#/Users/anantwagh/Documents/anant-test.rtf
+file = Path("/Users/anantwagh/Documents/anant-test.rtf").read_text()
+print(file.strip())
 
-# Step 2: Take user input
-search_word = input("Enter any text to search: ").strip()
+search_input = input("enter input: ").strip()
+#strip() removes leading and trailing whitespace from a string.
+print(f"entered input is: {search_input}")
 
-# Step 3: Count occurrences (case-insensitive)
-count = content.lower().count(search_word.lower())
-
-# Step 4: Print result
-print(f"'{search_word}' appears {count} times in the file.")
+count = file.lower().count(search_input.lower())
+print(count)

@@ -1,9 +1,11 @@
-name = input("Enter your name: ")
-print(f"your name is: {name}")
+str=input("enter your string: ")
+print(str)
 
-age = int(input("enter your age: "))
-print(f"your age is: {age}")
+num=int(input("enter your number: "))
+print(num)
 
-reverse = name[::-1]
+ch=int(input("enter your choice: "))
+print(ch)
 
-print(f"reversed name is: {reverse}")
+char=input("enter your character: ")
+print(char)

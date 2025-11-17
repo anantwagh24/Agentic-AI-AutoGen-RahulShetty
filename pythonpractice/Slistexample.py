@@ -6,6 +6,7 @@ groceries = [1, "Apple", "Bread", 2, "Cucumber", "Carrot", 3, "Dal", "Franky"]
 print("Groceries are:", groceries)
 
 print("1st Grocery:", groceries[0])
+
 print("3rd Grocery:", groceries[2])
 groceries.append("Milk")
 groceries.append("orange")

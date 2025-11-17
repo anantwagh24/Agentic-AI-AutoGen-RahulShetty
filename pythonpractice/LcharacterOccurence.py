@@ -13,14 +13,11 @@
 
 #Approach 2:
 
-str= input("enter your string: ")
+str=input("enter your string: ")
+
 count=0
 
-str=str.lower()
-print(str.isupper())
-print(str.islower())
-
-for ch in str:
-    if ch=='a':
+for i in range (len(str)):
+    if str[i]=='a':
         count+=1
-print(f"count of char is {count}")
+print(" count is: ",count)

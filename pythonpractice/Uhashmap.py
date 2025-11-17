@@ -11,6 +11,7 @@ contacts = {
 print("Phone Directory:", contacts)
 print("Sara's number:", contacts["Sara"])
 
+
 contacts1={
     "ANANT":"92839623",
     "RAHUL":"09483805",

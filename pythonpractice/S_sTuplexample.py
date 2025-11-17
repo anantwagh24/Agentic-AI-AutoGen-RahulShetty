@@ -12,6 +12,9 @@ def tuple_example():
 
     # adding value to converted tuple
     tolist[0]="banana"
-    print(f"revised list: {tolist}")
+    print(f"revised list1: {tolist}")
+    #Appending to converted tuple
+    tolist.append("orange")
+    print(f"revised list2: {tolist}")
 
 tuple_example()

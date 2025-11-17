@@ -11,5 +11,4 @@ class abc:
             greatest=n2
     else :
             greatest=n3
-
     print(f"greatest number is {greatest}")

@@ -1,10 +1,10 @@
-a,b=10,30
+num1=int(input("enter your first number: "))
 
-print(f"number before swap are: {a} and {b}")
+num2=int(input("enter your second number: "))
 
-a=a+b
-b=a-b
-a=a-b
-print(f"number after swap are: {a} and {b}")
+num1=num1+num2
+num2=num1-num2
+num1=num1-num2
 
-
+print("swapped numbers is",num1)
+print("swapped numbers is",num2)
