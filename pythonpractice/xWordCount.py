@@ -1,12 +1,20 @@
-str=input("enter your string: ")
-wrd=input("enter your word: ")
+def word_count():
+    # Python program to count word occurrence
 
-str=str.lower()
-wrd=wrd.lower()
+    str=input("enter ur string: ")
+    wrd="python"
+    count=0
 
-arr=str.split(" ")
-count=0
-for i in range(len(arr)):
-    if arr[i]==wrd:
-        count+=1
-print(f"word count of '{wrd}' is: {count}")
+    str=str.lower()
+    wrd=wrd.lower()
+
+    arr=str.split(" ")
+
+    for i in range(len(arr)):
+        if arr[i]==wrd:
+            count+=1
+
+    print(f"count of word {wrd} is: {count}")
+
+if __name__=="__main__":
+    word_count()
